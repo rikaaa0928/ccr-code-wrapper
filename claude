@@ -1,0 +1,5 @@
+#!/bin/bash
+# Wrapper script to use ccr code instead of claude command
+# All arguments are passed through to ccr code
+
+ccr code "$@"
